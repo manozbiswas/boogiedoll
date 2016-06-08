@@ -1,0 +1,90 @@
+body {
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.float-right {
+    float: right;
+}
+
+.custom-container {
+    width: 75%;
+}
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+/*Header*/
+.link-bar-nav {
+    /*width: 40%;*/
+    /* clear: both; */
+    /* overflow: hidden; */
+    float: right;
+}
+
+.logo {
+    margin-top: 10px;
+}
+
+.link-bar {
+    margin-top: 25px;
+}
+
+.link-bar-nav li {
+    display: inline-block;
+}
+
+.link-bar-nav li a {
+    font-size: 14px;
+}
+
+.link-bar-nav .link-only {
+    border: 1px solid;
+    padding: 3px 5px;
+}
+
+i.fa.fa-facebook {
+    background: #305097;
+    padding: 5px 10px;
+    font-size: 18px;
+    color: #fff;
+}
+
+i.fa.fa-twitter {
+    background: #00ACED;
+    padding: 5px 10px;
+    font-size: 18px;
+    color: #fff;
+}
+
+i.fa.fa-instagram {
+    background: #3F729B;
+    padding: 5px 10px;
+    font-size: 18px;
+    color: #fff;
+}
+.navbar-collapse {
+     padding-right: 0px;
+     padding-left: 0px;
+}
+
+.nav.navbar-nav li a{
+    text-transform: uppercase;
+}
+.nav.navbar-nav li i{
+    display: block;
+    text-align: center;;
+}
+/*Header end*/
