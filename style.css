@@ -8,8 +8,9 @@ a {
 }
 a:hover{
     color: #9a886d;
+    outline: none;
 }
-h1,h2, h3, h4, h5, h6{
+h1,h2, h3, h4, h5, h6,p{
     margin: 0;
 }
 ul {
@@ -322,6 +323,7 @@ hr.header-line{
     height: 100%;
     overflow: hidden;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .recent-events .open-starts {
@@ -330,7 +332,8 @@ hr.header-line{
     text-transform: uppercase;
 }
 .recent-events .excerpt{
-    color: #1E40A4;
+    color: #1e40a4;
+    font-size: 12px;
     text-transform: uppercase;
 }
 .recent-event {
@@ -339,6 +342,36 @@ hr.header-line{
     overflow: hidden;
     padding-bottom: 15px;
     position: relative;
+}
+.month-schedule{
+    font-size: 20px;
+
+}
+.widget-title.information{
+    font-size: 20px;
+    color: #328d00;
+    border-bottom: 3px solid #328d00;
+}
+.widget-title.information .all i{
+    color: #ffd200;
+    padding: 5px;
+  }
+.widget li.information {
+    border-bottom: 1px dashed;
+    padding: 10px 0px;
+}
+
+.all {
+    background: #328d00 none repeat scroll 0 0;
+    color: #fff;
+    /*float: right;*/
+    padding: 2px 4px;
+    text-align: right;
+}
+.information .date {
+    color: #328d00;
+    font-size: 14px;
+    font-weight: 600;
 }
 /*event*/
 .events{}
@@ -526,7 +559,7 @@ ul.extra-link li a {
 }
 .footer-link ul li {
     display: inline-block;
-    padding: 10px 15px 10px 0;
+    padding: 10px 10px 10px 0;
 }
 .footer-link li a {
     font-size: 16px;
@@ -584,10 +617,45 @@ margin-bottom: 5px;
     margin: 0;
     padding: 5px;
 }
-/*hr.footer-bar-image{*/
-    /*background: rgba(0, 0, 0, 0) url("assets/images/footer_line.png") repeat-x scroll left top;*/
-    /*height: 15px;*/
-    /*margin-bottom: 0;*/
-    /*margin-top: 0;*/
-    /*padding: 8px;*/
-/*}*/
+
+.scrollToTop {
+    background: #1e40a4 none repeat scroll 0 0;
+    color: #ffd200;
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    height: 70px;
+    padding: 0;
+    position: absolute;
+    right: 40px;
+    text-align: center;
+    text-decoration: none;
+    top: -60px;
+    width: 65px;
+}
+.scrollToTop:hover, .scrollToTop:link, .scrollToTop:visited{
+    color: #ffd200;
+}
+.scrolltotopcontainer{
+    position: relative;
+}
+#scrollUp {
+   background: #1e40a4 none repeat scroll 0 0;
+    color: #ffd200;
+    bottom: 0;
+    color: #828282;
+    font: 40px sans-serif;
+    height: 70px;
+    margin-bottom: -10px;
+    padding: 10px 5px;
+    right: 30px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+    transition: margin-bottom 150ms linear 0s;
+    width: 70px;
+}
+
+#scrollUp i.fa {
+    color: #ffd200;
+}
