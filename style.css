@@ -254,12 +254,98 @@ hr.header-line{
 .content .header-line{
     margin-top: 5px;
 }
+
+
+/*Sidebar*/
+
+.widget-title {
+    border-bottom: 3px solid #1e40a4;
+    color: #1e40a4;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 600;
+    margin: 0 0 15px;
+    padding: 0 0 15px;
+    text-transform: uppercase;
+}
+.recent-events .status {
+    background: #1e40a4 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.recent-events .statusbar {
+    position: relative;
+}
+.recent-events .time {
+    background: #ffd200 none repeat scroll 0 0;
+    color: #1e40a4;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 15px 5px 14px;
+}
+.recent-events .status:before {
+    border-bottom: 14px solid transparent;
+    border-left: 12px solid #1e40a4;
+    border-top: 12px solid transparent;
+    border-top-right-radius: 10px;
+    content: "";
+    display: block;
+    left: 31%;
+    position: absolute;
+    top: -2px;
+    z-index: 99999;
+}
+.recent-events .time:after {
+    border-bottom: 15px solid transparent;
+    border-left: 16px solid #fff;
+    border-top: 15px solid transparent;
+    content: "";
+    display: block;
+    left: 31%;
+    position: absolute;
+    top: -5px;
+    z-index: 999;
+}
+.event-image {
+    float: left;
+}
+.recent-events .event-details {
+    float: right;
+    width: 50%;
+}
+
+.sidebar .widget {
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.recent-events .open-starts {
+    color: #1e40a4;
+    padding: 3px 0;
+    text-transform: uppercase;
+}
+.recent-events .excerpt{
+    color: #1E40A4;
+    text-transform: uppercase;
+}
+.recent-event {
+    border-bottom: 1px dashed;
+    margin: 15px 0;
+    overflow: hidden;
+    padding-bottom: 15px;
+    position: relative;
+}
 /*event*/
 .events{}
-.event{
+.events .event{
     background: #1e40a4 none repeat scroll 0 0;
     border: 0px solid;
-    text-align: justify;
+    text-align: inherit;
     margin-bottom: 20px;
 }
 .featured-image{
@@ -298,9 +384,9 @@ hr.header-line{
     border-top-right-radius: 10px;
     content: "";
     display: block;
-    left: 66px;
+    left: 65px;
     position: absolute;
-    top: -10px;
+    top: -11px;
     z-index: 999999;
 }
 .event .same{
@@ -341,7 +427,7 @@ hr.header-line{
 
 /*instagram*/
 .instagram-list{
-    
+    text-align: right;;
 }
 
 .instagram {
@@ -464,10 +550,12 @@ ul.extra-link li a {
 .footer-navbar {
     margin-top: 20px;
     vertical-align: middle;
+    text-align: right;
 }
 .footer-navbar > li {
     display: inline-block;
-    padding: 0 3px;
+    padding: 0 2px;
+    text-align: right;
 }
 .footer-navbar li a {
     border-right: 1px solid #fff;
